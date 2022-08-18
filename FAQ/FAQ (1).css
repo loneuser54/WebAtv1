@@ -1,0 +1,17 @@
+#content{
+    margin:auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#logo{
+    text-align: left;
+}
+
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 32px;
+}

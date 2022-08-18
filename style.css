@@ -1,0 +1,11 @@
+header {
+    width: 1877px;
+    border: 1px solid black;
+}
+
+article {
+    display: inline-block;
+    border: 1pt dashed black;
+    padding: 5pt;
+    margin: 5pt;
+}
