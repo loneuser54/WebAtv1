@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-color:#344e41ff;">
 <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-center">
     <a class="navbar-brand" href="index.html"><img src="Spotify_Logo_RGB_White.png" alt="Início" width="150" height="75"></a>
@@ -39,40 +39,52 @@
     </header>
     -->
     <br>
-    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 bg-dark text-white">
             <a href="index.html"><img src="./img/home2.png" width="25" height="25" alt="Início da Página"> Início<br></a>
             <img src="./img/search.png" alt="Buscar" width="25" height="25"> Buscar<br>
             <img src="./img/books.png" alt="" width="25" height="25">Sua Biblioteca <br>
-            <img src="https://cdn.iconscout.com/icon/free/png-256/plus-1768091-1502264.png" alt="Criar Playlist" width="25" height="25"> Criar Playlist
-    </div>
+            <img src="./img/playlist.png" alt="Criar Playlist" width="25" height="25"> Criar Playlist
+        </div>
+        <div class="col-sm-8 bg-green">teste</div>
+      </div>
 
-    <div class="container-fluid">
+    <div class="">
         <h3>Navegação</h3>
         <section style="text-align: center;">
-            <img src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Arrow-icon-by-ahlangraphic-150-580x386.jpg" alt="" width="50" height="50">
+            <img src="./img/leftarrow.png" alt="" width="50" height="50">
             <article>
-                <img src="https://static.vecteezy.com/system/resources/previews/004/999/439/original/fire-sign-fire-flame-icon-isolated-on-white-background-illustration-free-vector.jpg" alt="" width="100" height="100">
+                <img src="./img/fire.png" alt="" width="100" height="100">
                 <h3>Em Alta</h3>
             </article>
             <article>
-                <img src="data:image/png;base64,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" width="100" height="100" alt="">
+                <img src="./img/podcast.png" width="100" height="100" alt="">
                 <h3>Podcasts</h3>
             </article>
             <article>
-                <img src="https://as1.ftcdn.net/v2/jpg/01/12/76/38/1000_F_112763872_mlf4VDprtLHhGoY2nY1MZEVGT61a63Oj.jpg" alt="" width="100" height="100">
+                <img src="./img/guitar.png" alt="" width="100" height="100">
                 <h3>Rock</h3>
             </article>
             <article>
-                <img src="https://t3.ftcdn.net/jpg/04/62/82/58/360_F_462825875_l4vnrzDpNIcU0jj8khl0MpfQuPOf5vyg.jpg" alt="" width="100" height="100">
+                <img src="./img/jazz.png" alt="" width="100" height="100">
                 <h3>Jazz</h3>
             </article>
             <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/1729/1729707.png" alt="" width="100" height="100">
+                <img src="./img/hip-hop.png" alt="" width="100" height="100">
                 <h3>Hip-Hop</h3>
             </article>
-            <img src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Arrow-icon-by-ahlangraphic-151.jpg" alt="" width="50" height="50">
+            <img src="./img/rightarrow.png" alt="" width="50" height="50">
         </section>
     </div>
+    <div class="container-fluid">
+        <div class="card text-white bg-dark mb-3" style="max-width: 10rem;">
+            <div class="card-header">Em Alta</div>
+            <div class="card-body">
+                <img src="./img/fire.png" alt="" width="100" height="100">
+            </div>
+          </div>
+    </div>
+
     <ul>
         <li><a href="FAQ/FAQ_1.html" target="_self">FAQ</a></li>
     </ul>

@@ -1,3 +1,7 @@
+body {
+    background-color:darkslategray;
+}
+
 header {
     width: 1877px;
     border: 1px solid black;
@@ -9,3 +13,4 @@ article {
     padding: 5pt;
     margin: 5pt;
 }
+
