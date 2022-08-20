@@ -1,5 +1,5 @@
 body {
-    background-color:darkslategray;
+    background-color:black;
 }
 
 header {
@@ -9,7 +9,6 @@ header {
 
 article {
     display: inline-block;
-    border: 1pt dashed black;
     padding: 5pt;
     margin: 5pt;
 }
